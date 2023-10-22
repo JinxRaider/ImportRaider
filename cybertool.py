@@ -55,7 +55,7 @@ def tool2():
     """
 
     print("Tool 2 is selected.")
-    # import os
+    # 
 import time
 import sys
 from colorama import Fore, Back, Style
