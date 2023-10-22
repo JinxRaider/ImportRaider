@@ -12,7 +12,7 @@ def cybertool():
 
     while True:
         print("\nPlease select a tool:")
-        print("1. Tool 1")
+        print("Discord Webhook Raider")
         print("2. Tool 2")
         print("3. Tool 3")
         print("4. Exit")
