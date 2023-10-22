@@ -1,4 +1,61 @@
-import os
+def cybertool():
+    """
+    Function to simulate a toolkit for Termux named 'cybertool'.
+
+    This function will provide a menu of available tools and perform the corresponding actions based on user input.
+
+    Returns:
+    - None
+    """
+
+    print("Welcome to Cybertool - The Toolkit for Termux!")
+
+    while True:
+        print("\nPlease select a tool:")
+        print("1. Tool 1")
+        print("2. Tool 2")
+        print("3. Tool 3")
+        print("4. Exit")
+
+        choice = input("Enter your choice (1-4): ")
+
+        if choice == "1":
+            tool1()
+        elif choice == "2":
+            tool2()
+        elif choice == "3":
+            tool3()
+        elif choice == "4":
+            print("Exiting Cybertool...")
+            break
+        else:
+            print("Invalid choice. Please try again.")
+
+def tool1():
+    """
+    Function to perform the action of Tool 1.
+
+    This function will simulate the behavior of Tool 1.
+
+    Returns:
+    - None
+    """
+
+    print("Tool 1 is selected.")
+    # Add your code for Tool 1 here
+
+def tool2():
+    """
+    Function to perform the action of Tool 2.
+
+    This function will simulate the behavior of Tool 2.
+
+    Returns:
+    - None
+    """
+
+    print("Tool 2 is selected.")
+    # import os
 import time
 import sys
 from colorama import Fore, Back, Style
@@ -78,3 +135,19 @@ elif option == "2":
 else:
 	print("invalid option!")
 	time.sleep(1)
+
+def tool3():
+    """
+    Function to perform the action of Tool 3.
+
+    This function will simulate the behavior of Tool 3.
+
+    Returns:
+    - None
+    """
+
+    print("Tool 3 is selected.")
+    # Add your code for Tool 3 here
+
+# Example usage of the cybertool function
+cybertool()
